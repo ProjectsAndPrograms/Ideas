@@ -36,7 +36,7 @@ class DashboardController extends Controller
             'is_admin' => 1,
         ]);
 
-        Mail::to($user->email)->send(new WelcomeEmail($user));
+        //Mail::to($user->email)->send(new WelcomeEmail($user));
 
         return redirect()
             ->route('admin.dashboard')
