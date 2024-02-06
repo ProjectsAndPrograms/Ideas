@@ -50,18 +50,23 @@
  Step-2: **[Install PHP and MySQL OR simply xampp](https://www.apachefriends.org/download.html)**<br>
  Step-3: open XAMPP start Apache server and MySQL database<br>
  Step-4: create database called <b>'ideas'</b> : open browser -> search -> <b>'localhost/phpmyadmin'</b> -> new -> under the database name type <b>'ideas'</b> -> create<br>
- Step-5: open your project folder with command line and run migrations to edit database, command is given<br>
 
-```bash
-php artisan migrate
-``` 
-Step-6: Serve application 
-```bash
-php artisan serve
-``` 
-Step-7: open browser and search for **[127.0.0.1:8000](127.0.0.1:8000/)**
-Step-8: it will start running, If any problem occure use any youtube tutorial to setup laravel then repeat step - 4,5,6,7
+Installation
 
+    Clone the Repo:
+    > git clone https://github.com/ProjectsAndPrograms/Ideas.git
+    > cd Ideas
+    > composer install or composer update
+    > cp .env.example .env
+    > Set up .env file
+    > php artisan key:generate
+    > php artisan storage:link
+    > php artisan migrate:fresh --seed
+    > php artisan serve
+    http://127.0.0.1:8000/
+
+<br>
+setup your .env file correctly it contains database credentials
 
 
 ## Contributing
