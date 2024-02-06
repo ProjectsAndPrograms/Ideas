@@ -7,6 +7,7 @@
   2. Laravel-10
   3. Blade templating engine
   4. MySQL database
+  5. Bootstrap 5
   
 ## Screenshots
 ### Users
