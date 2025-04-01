@@ -18,7 +18,7 @@
     </div>
     <div style="display: flex; grid-gap: 10px;">
         <img src="images/3.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="images/8.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
+        <img src="images/oranbyte-1.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
     </div>
      <div style="display: flex; grid-gap: 10px;">
         <img src="images/9.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
