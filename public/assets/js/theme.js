@@ -1,5 +1,5 @@
 const SUPPORTED_THEMES = [
-  "bootstrap",
+  "darkly",
   "brite",
   "cerulean",
   "cosmo",
@@ -55,6 +55,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+function capitalizeFirstLetter(val) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 function enableThemeToggle(selector){
     const select = document.querySelector(selector);
 
@@ -62,7 +66,7 @@ function enableThemeToggle(selector){
 
     let options = "";
     SUPPORTED_THEMES.forEach(t => {
-        options += `<option value='${t}' ${theme == t ? 'selected' : ''}>${t}</option>`;
+        options += `<option value='${t}' ${theme == t ? 'selected' : ''}>${capitalizeFirstLetter(t)}</option>`;
     });
     select.innerHTML = options;
 

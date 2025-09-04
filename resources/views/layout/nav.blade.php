@@ -13,7 +13,7 @@
             <ul class="navbar-nav">
 
                 <li>
-                   <div class="p-1">
+                   <div class="p-1 me-1" >
                      <select class="form-select" id="theme_toggle">
                         </select>
                    </div>

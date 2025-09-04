@@ -20,7 +20,7 @@
 @endauth
 
 @guest
-    <h1>{{ __('ideas.login_to_share') }}</h1>
+    <h2>{{ __('ideas.login_to_share') }}</h2>
     {{--OR <h1>{{ trans('ideas.login_to_share') }}</h1> --}}
     {{--OR @lang('ideas.login_to_share') --}}
 @endguest
