@@ -12,8 +12,8 @@
                         src="{{ $user->getImageURL() }}" alt="">
             </div>
             <div class="overflow-hidden">
-                <a class="h6 mb-0 text-primary" href="{{ route('users.show', $user->id) }}">{{ $user->name }}</a>
-                <p class="mb-0 small text-truncate"> {{  $user->followers()->count() }} @lang('ideas.followers')</p>
+                <a class="h6 mb-0 link-primary" href="{{ route('users.show', $user->id) }}">{{ $user->name }}</a>
+                <p class="mb-0 small text-truncate text-muted"> {{  $user->followers()->count() }} @lang('ideas.followers')</p>
                 
             </div>
             <a class="btn btn-light rounded icon-md ms-auto" href="{{ route('users.show', $user->id) }}"><i

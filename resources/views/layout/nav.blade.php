@@ -12,6 +12,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
 
+                <li>
+                   <div class="p-1">
+                     <select class="form-select" id="theme_toggle">
+                        </select>
+                   </div>
+                </li>
+
                 @guest
                 <li class="nav-item">
                     <a class="{{ Route::is('login') ? 'active' : '' }} nav-link" aria-current="page" href="{{ route('login') }}">@lang('ideas.login')</a>
