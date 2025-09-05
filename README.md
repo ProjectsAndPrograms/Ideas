@@ -1,5 +1,5 @@
 ## Ideas
- Ideas an social media website, where users can share their ideas to everyone. [Click here to view a live demo](https://ideas.free.nf/)
+ Ideas an social media website, where users can share their ideas to everyone. [Click here to view a live demo](https://ideas.oranbyte.com/)
 
 
 ## Technolgies Used 
