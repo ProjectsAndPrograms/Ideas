@@ -8,6 +8,7 @@
   3. Blade templating engine
   4. MySQL database 
   5. Bootstrap 5
+  6. Bootswatch
   
 ## Screenshots
 ### Users
