@@ -16,7 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <link rel="icon" href="storage/app-images/brain-red.png">
+    <link rel="icon" href="{{ asset('/favicon.ico') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/preloader.css') }}">
     <script src="{{ asset('/assets/js/preloader.js') }}"></script>
     <script src="{{ asset('/assets/js/theme.js') }}"></script>
